@@ -35,7 +35,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='z-[999] w-full text-center ml-auto mr-auto fixed top-[30px]' >
+            <nav className='z-[999] w-full text-center ml-auto mr-auto fixed top-[30px]' >
                 <div className='container mx-auto px-5 lg:px-10'>
                     <div className=" rounded-[20px] bgcl overflow-hidden">
                         <div className='flex justify-between py-2 lg:py-3 px-5 lg:px-10 z-[999] relative rounded-[20px]'>
@@ -111,7 +111,7 @@ const Navbar = () => {
                     </a>
                     </div>
                 </div>
-            </div>
+            </nav>
         
         </>
     );
