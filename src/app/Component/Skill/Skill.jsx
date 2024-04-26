@@ -1,23 +1,14 @@
 import React from 'react';
 import Skillcontent from './Skillcontent';
+import "./skill.css";
 
 const Skill = () => {
     return (
-        <div className='relative' id='Skill'>
-        <video
-            className="object-cover h-[100vh] w-[100%] "
-            autoPlay
-            muted
-            loop
-            preload="metadata"
-        >
-            <source
-                src="/Intro/webvideo3.mp4"
-                type="video/mp4"
-            />
-        </video>
-        <div className='absolute top-0 bottom-0 w-[100%] h-[100vh] bg-[#00000083]'></div>
+        <div className='relative w-[100%] md:h-[100vh] pt-12 pb-12 md:pt-0 md:pb-0' id='Skill'>
+       
+        
         <Skillcontent/>
+       
     </div>
     );
 }

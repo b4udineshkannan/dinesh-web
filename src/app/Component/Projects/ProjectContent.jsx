@@ -8,7 +8,7 @@ import "./project.css"
 
 const ProjectContent = () => {
     return (
-        <div className='w-full ml-auto mr-auto absolute top-32 lg:top-40' >
+        <div className='w-full ml-auto mr-auto' >
             <div className='container mx-auto px-5 lg:px-10'>
                 <div className="text-white text-xl font-[600] lg:text-3xl lg:leading-tight text-center mb-10"><h1>PROJECTS</h1></div>
                 <Swiper

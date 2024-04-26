@@ -3,12 +3,18 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body{
+  overflow-x: hidden;
+  color: #fff;
+}
+.main-wrapper{
+  overflow-x: hidden;
+}
 .Crow{
   @apply 
   flex
   flex-wrap
-  pl-6
-  pr-6
+ 
   }
   .Ccol-1{
     @apply
@@ -44,6 +50,8 @@
           flex-auto
           
           }
+
+           
        
       
     .Ccol-7{
@@ -82,7 +90,7 @@
   flex-col
   justify-center
 }
-.ver-cen{
+.ver-center{
   @apply
   absolute
   top-2/4
@@ -105,4 +113,38 @@
   @apply
   w-full
   h-auto
+}
+.font-h1-lg{
+  font-size: clamp(30px, 6vw, 3rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.bg-video{
+  overflow: hidden;
+}
+html {
+  /* scroll-behavior: smooth; */
+  scroll-padding-top: 10rem;
+}
+html #Skill{
+  scroll-padding-top: 100px;
+}
+.font-h1-lg span{
+  padding-left: 5px;
+  display: inline-block;
+}
+.Subtitle{
+  font-size: clamp(18px, 2vw, 1.2rem);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.font-h2-lg{
+  font-size: clamp(24px, 6vw, 2rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+body, p, span, ul, ol{
+  font-weight: 300;
+  font-size: 15px;
 }

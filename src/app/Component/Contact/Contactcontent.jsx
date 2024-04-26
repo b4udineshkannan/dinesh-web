@@ -4,38 +4,44 @@ import "./contact.css"
 
 const Contactcontent = () => {
     return (
-        <div className='w-full ml-auto mr-auto absolute top-32 lg:top-52' >
-            <div className='container mx-auto px-5 lg:px-10'>
-                <div className='md:flex  md:flex-row  lg:gap-60 flex-1 '>
-                    <div className='lg:flex flex-col flex-1 text-center inline-block mb-10 lg:mb-0'>
-                        <Image
+        <>
+        
+        <div className='flex flex-wrap -mx-4'>
+                    <div className='w-full items-center md:w-2/4 w-[100%] md:h-[100vh] flex-auto px-4 ver-cen'>
+                    <Image
                             src={"/Intro/Logo/Location.png"}
                             alt='intro'
                             width={450}
                             height={206}
-                            className='w-[150px] lg:w-[440px] h-[auto] relative left-16 lg:left-0 rotating'
+                            className='max-w-sm DCimg relative rotating'
                         />
+                   
+                       
                     </div>
-                    <div className='flex flex-col flex-1'>
-                        <div className="text-[#fff] text-xl font-[600] mb-4 text-center lg:text-left">
-                            <h1>CONTACT</h1>
+                    <div className='w-full md:w-2/4 md:h-[100vh] flex-auto ver-cen'>
+                        <div className="text-white">
+                    <div className="mb-4">
+                            <h2 className='font-h2-lg'>CONTACT</h2>
                         </div>
 
-                        <div className='text-white text-xl font-[400] lg:text-xl lg:leading-tight relative mb-2'>
-                            <h2 className='font-[600]'>Address</h2>
-                            <div className='text-white text-sm text-left lg:leading-9 lg:text-base mt-2 lg:mt-3 '>
+                      
+                        <div className='mt-4'>
+                            <h2 className='Subtitle'>Address</h2>
+                            <div className='mt-2 lg:mt-3 '>
                             <p>3/28 Silattur POST, Aranthangi TALUK, <br />
                             Pudukkottai DISTRICT , Tamil Nadu - 614622
                             </p>
                         </div>
                         </div>
-                        <div className='text-white text-xl font-[400] lg:text-xl lg:leading-tight relative  mb-2'>
-                            <h2 className='font-[600]'>Phone</h2>
-                            <div className='text-white text-sm text-left lg:leading-9 lg:text-base mt-2 lg:mt-3 '>
+                   
+                        <div className='relative  mt-4'>
+                            <h2 className='Subtitle'>Phone</h2>
+                            <div className='mt-2 lg:mt-3 '>
                             <p>+91 9655608252</p>
                         </div>
                         </div>
-                        <div className='text-white text-xl font-[400] lg:text-xl lg:leading-tight relative  mb-2 '>
+                    
+                        <div className='mt-4 '>
                             <div className='flex items-center gap-2'>
                             <div>
                             <Image 
@@ -46,21 +52,19 @@ const Contactcontent = () => {
                            className='w-[25px] h-[25px] inline-block'
                            />
                             </div>
-                            <div><h2 className='font-[600]'>Email</h2></div>
+                            <div><h2 className='Subtitle'>Email</h2></div>
                             </div>
-                            <div className='text-white text-sm text-left lg:leading-9 lg:text-base mt-2 lg:mt-3 '>
+                            <div className='mt-2 lg:mt-3'>
                             <p>sundarsk823@gmail.com</p>
                         </div>
                         </div>
-                    
+                        </div>
                     </div>
 
 
                 </div>
-            </div>
-
-
-        </div>
+     
+        </>
     );
 }
 

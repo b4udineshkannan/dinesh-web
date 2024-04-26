@@ -9,29 +9,29 @@ const Content = () => {
 
 
     return (
-        <div className='customrow w-full ml-auto mr-auto absolute top-32 lg:top-52' >
-            <div className='container mx-auto px-5 lg:px-10'>
-                <div className='Crow'>
-                    <div className='Ccol-6'>
+        <>
+           
+                <div className='flex flex-wrap -mx-4'>
+                    <div className='items-center w-full md:w-2/4 flex-auto ver-cen'>
                         <Image
                             src={"/Intro/Logo/skills.png"}
                             alt='intro'
                             width={450}
                             height={206}
-                            className='w-[150px] lg:w-[340px] h-[auto] relative left-16 lg:left-0'
+                            className='max-w-96 DCimg'
                         />
                     </div>
-                    <div className='Ccol-6'>
-                        <div className="text-[#fff] text-xl font-[600] mb-4 text-center lg:text-left cl">
-                            <h1>ABOUT ME</h1>
+                    <div className='w-full md:w-2/4 flex-auto ver-cen'>
+                        <div className="mb-4">
+                            <h2 class="Subtitle">ABOUT ME</h2>
                         </div>
 
-                        <div className='text-white text-xl font-[500] lg:text-3xl lg:leading-tight relative'>
-                            <h2>Front-end Developer <br />based in Tamilnadu, India
+                        <div className='relative'>
+                            <h2 className="font-h2-lg">Front-end Developer <br />based in Tamilnadu, India
                                </h2>
                       
                         </div>
-                        <div className='text-white text-sm text-left lg:leading-9 lg:text-base mt-2 lg:mt-5 '>
+                        <div className="mt-2 lg:mt-5">
                             <p>Hii, my name is Sundar, and Im a Frontend Developer. My 
                                 passion is to create and develop a clean UI/UX.</p>
                         </div>
@@ -43,10 +43,10 @@ const Content = () => {
 
 
                 </div>
-            </div>
+          
 
 
-        </div>
+        </>
     );
 }
 
