@@ -43,7 +43,7 @@ const Navbar = () => {
                                 <Link href="#Home" onClick={scroll}>
                                     <div className='flex'>
                                         <Image
-                                            src={"/Intro/Logo/Logo3m.png"}
+                                            src={"/Intro/Logo/logo3m.png"}
                                             alt={"Logo"}
                                             width={50}
                                             height={50}
