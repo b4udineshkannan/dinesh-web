@@ -9,10 +9,10 @@ const Content = () => {
 
 
     return (
-        <div className='w-full ml-auto mr-auto absolute top-32 lg:top-52' >
+        <div className='customrow w-full ml-auto mr-auto absolute top-32 lg:top-52' >
             <div className='container mx-auto px-5 lg:px-10'>
-                <div className='md:flex  md:flex-row  lg:gap-60 flex-1 '>
-                    <div className='lg:flex flex-col flex-1 text-center inline-block mb-10 lg:mb-0'>
+                <div className='Crow'>
+                    <div className='Ccol-6'>
                         <Image
                             src={"/Intro/Logo/skills.png"}
                             alt='intro'
@@ -21,7 +21,7 @@ const Content = () => {
                             className='w-[150px] lg:w-[340px] h-[auto] relative left-16 lg:left-0'
                         />
                     </div>
-                    <div className='flex flex-col flex-1'>
+                    <div className='Ccol-6'>
                         <div className="text-[#fff] text-xl font-[600] mb-4 text-center lg:text-left cl">
                             <h1>ABOUT ME</h1>
                         </div>

@@ -2,47 +2,106 @@
 @tailwind components;
 @tailwind utilities;
 
-html.lenis, html.lenis body {
-  height: auto;
-}
-
-.lenis.lenis-smooth {
-  scroll-behavior: auto ;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-  pointer-events: none;
-}
-
-/* html {
-  scroll-behavior: smooth;
-} */
-
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
+.Crow{
+  @apply 
+  flex
+  flex-wrap
+  pl-6
+  pr-6
   }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #000; 
+  .Ccol-1{
+    @apply
+    flex-auto
+   w-1/12
+}
+  .Ccol-2{
+    @apply
+    flex-auto
+   w-1/6
+}
+ 
+    .Ccol-3{
+      @apply 
+      flex-auto
+        w-1/4
+      
+      }
+      .Ccol-4{
+        @apply 
+        flex-auto
+          w-1/3
+        
+        }
+        .Ccol-5{
+          @apply
+          flex-auto
+         w-5/12
+      }
+        .Ccol-6{
+          @apply 
+          w-2/4
+          flex-auto
+          
+          }
+       
+      
+    .Ccol-7{
+      @apply
+      flex-auto
+     w-7/12
   }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #fff; 
+  .Ccol-8{
+    @apply
+    flex-auto
+   w-8/12
+}
+.Ccol-9{
+  @apply
+  flex-auto
+ w-9/12
+}
+.Ccol-10{
+  @apply
+  flex-auto
+ w-10/12
+}
+.Ccol-11{
+  @apply
+  flex-auto
+ w-11/12
+}
+.Ccol-12{
+  @apply
+  flex-auto
+ w-full
+}
+.ver-cen{
+  @apply
+  flex
+  flex-col
+  justify-center
+}
+.ver-cen{
+  @apply
+  absolute
+  top-2/4
+  left-2/4
+  -translate-x-1/2
+  -translate-y-1/2
+  mt-0
+  mb-0
+  ml-auto
+  mr-auto
+}
+.vertical-end{
+  @apply
+ flex
+ flex-col
+ justify-end
+ 
   }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+.DCimg{
+  @apply
+  w-full
+  h-auto
+}
