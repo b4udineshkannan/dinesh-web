@@ -106,7 +106,7 @@ const Navbar = () => {
                     alt='cv' 
                     width={100} 
                     height={100} 
-                    className='w-[50px] h-[auto] rounded-[100%] bg-[#000] rounded-full'
+                    className='w-[50px] h-[auto] rounded-[100%] bg-[#000] rounded-full cbounce'
                     />
                     </a>
                     </div>
