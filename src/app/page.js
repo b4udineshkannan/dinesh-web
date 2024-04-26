@@ -15,10 +15,10 @@ export default function Home() {
                     muted
                     playsInline
                     loop
-                    preload="metadata"
+                    preload="auto"
                 >
                     <source
-                        src="/Intro/webvideo2.mp4"
+                        src="/Intro/new-comp.mp4"
                         type="video/mp4"
                     />
                 </video>
