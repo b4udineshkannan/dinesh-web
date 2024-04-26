@@ -37,7 +37,7 @@ const Contactcontent = () => {
                         <div className='relative  mt-4'>
                             <h2 className='Subtitle'>Phone</h2>
                             <div className='mt-2 lg:mt-3 '>
-                            <p>+91 9655608252</p>
+                            <p><a href="tel:+91 9487658225">+91 9487658225</a></p>
                         </div>
                         </div>
                     
@@ -55,7 +55,7 @@ const Contactcontent = () => {
                             <div><h2 className='Subtitle'>Email</h2></div>
                             </div>
                             <div className='mt-2 lg:mt-3'>
-                            <p>sundarsk823@gmail.com</p>
+                            <p><a href="mailto:b4udineshkannan@gmail.com">b4udineshkannan@gmail.com</a></p>
                         </div>
                         </div>
                         </div>
