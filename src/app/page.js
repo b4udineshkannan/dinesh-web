@@ -13,6 +13,7 @@ export default function Home() {
    <video  className="bg-video fixed top-0 bottom-0 object-cover h-[100vh] w-[100%] "
                     autoPlay
                     muted
+                    playsInline
                     loop
                     preload="metadata"
                 >
