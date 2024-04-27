@@ -15,10 +15,10 @@ const CustomComponent = () => {
                     muted
                     loop
                     preload="metadata"
-                    poster="/Intro/webvideo3.jpg"
+                    poster="/Intro/webvideo2.jpg"
                 >
                     <source
-                        src="/Intro/webvideo2.mp4"
+                        src="/Intro/webvideo3.mp4"
                         type="video/mp4"
                     />
                 </video>
