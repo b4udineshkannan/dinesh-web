@@ -12,7 +12,7 @@ const Content = () => {
         <>
            
                 <div className='flex flex-wrap -mx-4'>
-                    <div className='items-center w-full md:w-2/4 flex-auto ver-cen'>
+                    <div className='items-center w-[100%] md:h-[100vh] md:w-2/4 flex-auto ver-cen'>
                         <Image
                             src={"/Intro/Logo/skills.png"}
                             alt='intro'

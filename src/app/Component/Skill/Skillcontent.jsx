@@ -5,7 +5,7 @@ const Skillcontent = () => {
     return (
         <>
          <div className='flex flex-wrap -mx-4 flex-col-reverse md:flex-row'>
-                    <div className='w-full md:w-2/4 flex-auto ver-cen'>
+                    <div className='w-[100%] md:h-[100vh] md:w-2/4 flex-auto ver-cen'>
                     <div className="mb-4">
                             <h1 className='font-h2-lg'>Skills</h1>
                         </div>
@@ -20,7 +20,7 @@ const Skillcontent = () => {
                         </div>
                        
                     </div>
-                    <div className='items-center w-full md:w-2/4 flex-auto pb-12 md:pb-12 ver-cen'>
+                    <div className='items-center w-[100%] md:h-[100vh] md:w-2/4 flex-auto pb-12 md:pb-12 ver-cen'>
                       
                     <Image
                             src={"/Intro/Logo/about.png"}

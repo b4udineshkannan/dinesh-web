@@ -7,10 +7,10 @@ const Contactcontent = () => {
         <>
         
         <div className='flex flex-wrap -mx-4'>
-                    <div className='w-full items-center md:w-2/4 w-[100%] md:h-[100vh] flex-auto px-4 ver-cen'>
+                    <div className='w-[100%] md:h-[100vh] items-center md:w-2/4 w-[100%] md:h-[100vh] flex-auto px-4 ver-cen'>
                     <Image
                             src={"/Intro/Logo/Location.png"}
-                            alt='intro'
+                            alt='Location Icon'
                             width={450}
                             height={206}
                             className='max-w-sm DCimg relative rotating'
@@ -18,7 +18,7 @@ const Contactcontent = () => {
                    
                        
                     </div>
-                    <div className='w-full md:w-2/4 md:h-[100vh] flex-auto ver-cen'>
+                    <div className='w-[100%] md:h-[100vh] md:w-2/4 md:h-[100vh] flex-auto ver-cen'>
                         <div className="text-white conadd-inner-dev">
                     <div className="mb-4">
                             <h2 className='font-h2-lg'>CONTACT</h2>
@@ -64,7 +64,7 @@ const Contactcontent = () => {
                                 src={"/Intro/Logo/linked-in.svg"}
                                 width={25}
                                 height={25}
-                                alt='html'
+                                alt='Linkedin'
                                 className='lg:w-[25px] w-[25px] h-auto'
                             />
                             </a>
@@ -73,7 +73,7 @@ const Contactcontent = () => {
                                 src={"/Intro/Logo/whatsapp.svg"}
                                 width={25}
                                 height={25}
-                                alt='html'
+                                alt='Whats app'
                                 className='lg:w-[25px] w-[25px] h-auto'
                             />
                             </a>

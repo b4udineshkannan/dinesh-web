@@ -6,7 +6,7 @@ import IntroContent from './IntroContent';
 const Intro = () => {
     return (
         <>
-        <div id="Home" className='w-[100%] md:h-[100vh]'>
+        <div id="Home" className='pt-32 lg:pt-0 w-[100%] md:h-[100vh]'>
             <IntroContent/>
         </div>
           {/* test */}

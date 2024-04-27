@@ -3,8 +3,8 @@ import Image from 'next/image'
 const IntroContent = () => {
   return (
    <>
-   <div className='flex flex-wrap -mx-4 flex-col-reverse md:flex-row pt-28 lg:pt-40'>
-                    <div className='md:w-2/4 w-full flex-auto ver-cen'>
+   <div className='flex flex-wrap -mx-4 flex-col-reverse md:flex-row'>
+                    <div className='md:w-2/4  w-[100%] md:h-[100vh] flex-auto ver-cen'>
                         <div className='text-[#fff]'>
                     <div className="relative">
                     <h1 className='font-h1-lg'>Front-End React <br /> Developer
