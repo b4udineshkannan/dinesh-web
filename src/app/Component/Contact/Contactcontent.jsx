@@ -68,7 +68,7 @@ const Contactcontent = () => {
                                 className='lg:w-[25px] w-[25px] h-auto'
                             />
                             </a>
-                            <a href="https://api.whatsapp.com/send?phone=919003236000&amp;text=Hi!  Dinesh Kannan for job Enquiry" target='_blank'>
+                            <a href="https://api.whatsapp.com/send?phone=919487658225&amp;text=Hi!  Dinesh Kannan for job Enquiry" target='_blank'>
                         <Image
                                 src={"/Intro/Logo/whatsapp.svg"}
                                 width={25}
