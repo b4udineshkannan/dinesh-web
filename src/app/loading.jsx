@@ -1,8 +1,15 @@
 
 import React from 'react'
 
-export default function loading() {
+const loading = () => {
   return (
-    <div className='text-white fixed bg-white w-full h-dvh z-50 flex'>loading</div>
+    <>
+   <div className='text-white fixed bg-white w-full h-dvh z-50 flex'>
+    <h2>loading</h2></div>
+    </>
   )
 }
+
+export default loading
+
+
