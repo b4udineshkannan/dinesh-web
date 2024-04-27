@@ -23,28 +23,56 @@ const IntroContent = () => {
                             <p>Hi, I am Sundar. A passionate Front-end React
                                 <br /> Developer based in Tamilnadu, India</p>
                         </div>
-                        <div className='mt-5 lg:mt-7 flex gap-5'>
+                        <div className='mt-5 lg:mt-7 flex gap-3'>
                             <Image
-                                src={"/Intro/Logo/html.svg"}
+                                src={"/Intro/Logo/chtml.svg"}
                                 width={160}
                                 height={60}
                                 alt='html'
-                                className='lg:w-[100px] w-[70px] h-auto'
-                            />
-                            <Image
-                                src={"/Intro/Logo/react.svg"}
-                                alt='react'
-                                width={160}
-                                height={60}
-                                className='w-[70px] lg:w-[100px] h-auto '
+                                className='lg:w-[45px] w-[30px] h-auto'
                             />
                              <Image
+                                src={"/Intro/Logo/ccss.svg"}
+                                width={160}
+                                height={60}
+                                alt='html'
+                                className='lg:w-[45px] w-[30px] h-auto'
+                            />
+                            <Image
+                                src={"/Intro/Logo/creact.svg"}
+                                width={160}
+                                height={60}
+                                alt='html'
+                                className='lg:w-[45px] w-[30px] h-auto'
+                            />
+                            <Image
+                                src={"/Intro/Logo/cnext.svg"}
+                                width={160}
+                                height={60}
+                                alt='html'
+                                className='lg:w-[45px] w-[30px] h-auto'
+                            />
+                             <Image
+                                src={"/Intro/Logo/ctailwind.svg"}
+                                width={160}
+                                height={60}
+                                alt='html'
+                                className='lg:w-[45px] w-[30px] h-auto'
+                            />
+                            <Image
+                                src={"/Intro/Logo/cwordpress.svg"}
+                                width={160}
+                                height={60}
+                                alt='html'
+                                className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
+                            />
+                             {/* <Image
                                 src={"/Intro/Logo/tailwind.svg"}
                                 alt='react'
                                 width={160}
                                 height={60}
                                 className='w-[70px] lg:w-[100px] h-auto'
-                            />
+                            /> */}
                         </div>
                        
                        
