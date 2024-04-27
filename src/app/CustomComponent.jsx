@@ -15,7 +15,7 @@ const CustomComponent = () => {
                     muted
                     loop
                     preload="metadata"
-                    poster="/Intro/webvideo2.jpg"
+                    poster="/Intro/webvideo3.jpg"
                 >
                     <source
                         src="/Intro/webvideo2.mp4"
