@@ -21,10 +21,7 @@ export default function Home() {
                         src="/Intro/new-comp.mp4"
                         type="video/mp4"
                     />
-                    <source
-                        src="/Intro/webm.webm"
-                        type="video/webm"
-                    />
+                    
                 </video>
                 <div className="absolute top-0 left-0 right-0 bg-[#00000083]">
 
