@@ -58,6 +58,27 @@ const Contactcontent = () => {
                             <p><a className='underline hover:text-[#ffb92c]' href="mailto:b4udineshkannan@gmail.com">b4udineshkannan@gmail.com</a></p>
                         </div>
                         </div>
+<div className='mt-5 lg:mt-7 flex gap-3'>
+    <a href="https://www.linkedin.com/in/r-dinesh-kannan-9a262b140/" target='_blank'>
+                        <Image
+                                src={"/Intro/Logo/linked-in.svg"}
+                                width={25}
+                                height={25}
+                                alt='html'
+                                className='lg:w-[25px] w-[25px] h-auto'
+                            />
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=919003236000&amp;text=Hi!  Dinesh Kannan for job Enquiry" target='_blank'>
+                        <Image
+                                src={"/Intro/Logo/whatsapp.svg"}
+                                width={25}
+                                height={25}
+                                alt='html'
+                                className='lg:w-[25px] w-[25px] h-auto'
+                            />
+                            </a>
+                           
+                            </div>
                         </div>
                     </div>
 
