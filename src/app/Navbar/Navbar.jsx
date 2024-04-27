@@ -36,7 +36,7 @@ const Navbar = () => {
     return (
         <>
             <nav className='left-0 z-[999] w-full text-center ml-auto mr-auto fixed top-[30px]' >
-                <div className='container mx-auto px-5 lg:px-10'>
+                <div className='navcontainer'>
                     <div className=" rounded-[20px] bgcl overflow-hidden">
                         <div className='flex justify-between py-2 lg:py-3 px-5 lg:px-10 z-[999] relative rounded-[20px]'>
                             <div id='page2'>
@@ -58,13 +58,18 @@ const Navbar = () => {
                             </div>
                             <div className='lg:hidden flex items-center'>
                                 <button onClick={() => { setOpen(!open) }}>
-                                    <Image
+                                     {/* <Image
                                         src={"/Intro/Logo/navs.png"}
                                         alt="nav"
                                         width={60}
                                         height={60}
                                         className='w-[30px] h-[auto]'
-                                    />
+                                    />  */}
+                                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 18L20 18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<path d="M4 12L20 12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<path d="M4 6L20 6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>
                                 </button>
                             </div>
 
@@ -92,6 +97,12 @@ const Navbar = () => {
                         </div>
                         <div className={`hide ${open ? "show" : ""}`}>
 
+<ul className='mobileli'>
+    <li><Link href="#About">About</Link></li>
+    <li><Link href="#Skill">Skill</Link></li>
+    <li><Link href="#Projects">Projects</Link></li>
+    <li><Link href="#Contact">Contact</Link></li>
+</ul>
                         </div>
                     </div>
                 </div>
@@ -100,7 +111,7 @@ const Navbar = () => {
                     <h1>CV</h1>
                     </div> */}
                    <div>
-                   <a href="/cv/Dinesh_new_2023 Resume.pdf" download>
+                   <a href="/cv/Dinesh_new_2023 Resume.pdf" >
                     <Image 
                     src={"/Intro/Logo/cv.png"} 
                     alt='cv' 

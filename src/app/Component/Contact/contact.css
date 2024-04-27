@@ -10,3 +10,8 @@
       transform: rotateY(360deg);
     }
   }
+  @media (max-width:767px){
+  .conadd-inner-dev{
+    padding-bottom: 60px;
+  }
+}

@@ -19,7 +19,7 @@ const Contactcontent = () => {
                        
                     </div>
                     <div className='w-full md:w-2/4 md:h-[100vh] flex-auto ver-cen'>
-                        <div className="text-white">
+                        <div className="text-white conadd-inner-dev">
                     <div className="mb-4">
                             <h2 className='font-h2-lg'>CONTACT</h2>
                         </div>

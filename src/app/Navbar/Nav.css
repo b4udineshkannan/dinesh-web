@@ -1,12 +1,20 @@
 .bgcl{
     background: linear-gradient(to left,#00DBDE, #FC00FF);
     position: relative;
-    border-radius: 40px;
+    border-radius: 20px;
 
 }
-
+.navcontainer{
+    margin-left: 60px;
+    margin-right: 60px;
+}
 .bgcl:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 2cap 0 rgba(214, 203, 203, 0.414);
+}
+@media screen and (max-width: 1024px) {
+    .bgcl::before{
+        content: none !important;
+    }
 }
 .bgcl::before{
     background: linear-gradient(to left, #FC00FF, #00DBDE);
@@ -17,7 +25,7 @@
     height: 100%;
     left: 0px;
     top: 0px;
-    border-radius: 40px;
+    border-radius: 20px;
     z-index: 1;
 
 }
@@ -34,10 +42,61 @@
 }
 
 .show{
-    height: 250px!important;
+    height: 276px!important;
 }
 .cbounce{
     animation: bounce 2s ease infinite;
+}
+
+.hamburger_menu{
+    overflow: hidden;
+    top: 15px;
+    width: 33px;
+    height: 31px;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+}
+
+.hamburger-span {
+    cursor: pointer;
+    height: 3px;
+    width: 25px;
+    top: -4px;
+    margin: 6px 0;
+    background: #000;
+    background-position: center center;
+  border-radius: 50px;
+    position: relative;
+    right: 0;
+    display: block;
+    transform: rotate(0deg);
+    transition: .7s ease;
+}
+@media (max-width: 991px) {
+    .navcontainer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .mobileli{
+        padding:0px 15px;
+    }
+    .mobileli li {
+        display: block;
+        padding: 0;
+        border-bottom: 1px solid #fff;
+    }
+    .mobileli li a{
+        display: block;
+        padding: 20px 5px;
+        text-align: left;
+       
+        font-weight: 500;
+
+    }
 }
 
 @-webkit-keyframes bounce {
