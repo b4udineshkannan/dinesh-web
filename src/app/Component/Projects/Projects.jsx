@@ -3,7 +3,7 @@ import ProjectContent from './ProjectContent';
 
 const Projects = () => {
     return (
-        <div className='relative' id='Projects'>
+        <div className='lg:scroll-mt-36 relative pt-32 lg:pt-0' id='Projects'>
       
         <div className='bg-[#00000083]'></div>
       <ProjectContent/>

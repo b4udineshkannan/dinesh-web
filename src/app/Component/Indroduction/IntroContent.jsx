@@ -20,8 +20,8 @@ const IntroContent = () => {
                         </div>
 
                         <div className='mt-2 lg:mt-5 '>
-                            <p>Hi, I am Sundar. A passionate Front-end React
-                                <br /> Developer based in Tamilnadu, India</p>
+                            <p>Hi, I am Rajender Dinesh Kannan. A passionate Front-end React
+                                <br /> Developer, Wordpress Developer based in Tamilnadu, India</p>
                         </div>
                         <div className='mt-5 lg:mt-7 flex gap-3'>
                             <Image
