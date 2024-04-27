@@ -122,6 +122,10 @@ body{
 
 .bg-video{
   overflow: hidden;
+  background-image: url("/Intro/webvideo2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 html {
   /* scroll-behavior: smooth; */

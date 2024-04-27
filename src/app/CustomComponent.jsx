@@ -10,11 +10,12 @@ const CustomComponent = () => {
   return (
   <>
    <div className="main-wrapper">
-   <video  className="bg-video fixed top-0 bottom-0 object-cover h-[100vh] w-[100%] "
+   <video  className="bg-video fixed top-0 left-0 right-0 bottom-0 object-cover h-[100vh] w-[100%] "
                     autoPlay
                     muted
                     loop
                     preload="metadata"
+                    poster="/Intro/webvideo2.jpg"
                 >
                     <source
                         src="/Intro/webvideo2.mp4"
