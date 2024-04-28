@@ -45,13 +45,7 @@ const IntroContent = () => {
                                 alt='javascript'
                                 className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
                             />
-                            <Image
-                                src={"/Intro/Logo/csass.svg"}
-                                width={160}
-                                height={60}
-                                alt='sass'
-                                className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
-                            />
+                           
                             <Image
                                 src={"/Intro/Logo/creact.svg"}
                                 width={160}
@@ -78,6 +72,13 @@ const IntroContent = () => {
                                 width={160}
                                 height={60}
                                 alt='wordpress'
+                                className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
+                            />
+                             <Image
+                                src={"/Intro/Logo/csass.svg"}
+                                width={160}
+                                height={60}
+                                alt='sass'
                                 className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
                             />
                              {/* <Image
