@@ -43,7 +43,7 @@ const IntroContent = () => {
                                 width={160}
                                 height={60}
                                 alt='javascript'
-                                className='lg:w-[45px] w-[30px] h-auto DO'
+                                className='lg:w-[45px] w-[30px] h-auto'
                             />
                            
                             <Image
