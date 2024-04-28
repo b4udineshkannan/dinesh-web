@@ -39,7 +39,7 @@ const IntroContent = () => {
                                 className='lg:w-[45px] w-[30px] h-auto'
                             />
                             <Image
-                                src={"/Intro/Logo/cjavascript.svg"}
+                                src={"/public/Intro/Logo/cjavascript.svg"}
                                 width={160}
                                 height={60}
                                 alt='javascript'
