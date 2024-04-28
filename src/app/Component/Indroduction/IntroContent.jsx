@@ -23,7 +23,7 @@ const IntroContent = () => {
                             <p>Hi, I am Rajender Dinesh Kannan. A passionate Front-end React
                                 <br /> Developer, Wordpress Developer based in Tamilnadu, India</p>
                         </div>
-                        <div className='mt-5 lg:mt-7 flex gap-3'>
+                        <div className='mt-5 lg:mt-7 flex flex-wrap gap-3'>
                             <Image
                                 src={"/Intro/Logo/chtml.svg"}
                                 width={160}
@@ -35,35 +35,49 @@ const IntroContent = () => {
                                 src={"/Intro/Logo/ccss.svg"}
                                 width={160}
                                 height={60}
-                                alt='html'
+                                alt='css'
                                 className='lg:w-[45px] w-[30px] h-auto'
+                            />
+                            <Image
+                                src={"/Intro/Logo/cjavascript.svg"}
+                                width={160}
+                                height={60}
+                                alt='javascript'
+                                className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
+                            />
+                            <Image
+                                src={"/Intro/Logo/csass.svg"}
+                                width={160}
+                                height={60}
+                                alt='sass'
+                                className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
                             />
                             <Image
                                 src={"/Intro/Logo/creact.svg"}
                                 width={160}
                                 height={60}
-                                alt='html'
+                                alt='react'
                                 className='lg:w-[45px] w-[30px] h-auto'
                             />
                             <Image
                                 src={"/Intro/Logo/cnext.svg"}
                                 width={160}
                                 height={60}
-                                alt='html'
+                                alt='nextjs'
                                 className='lg:w-[45px] w-[30px] h-auto'
                             />
                              <Image
                                 src={"/Intro/Logo/ctailwind.svg"}
                                 width={160}
                                 height={60}
-                                alt='html'
+                                alt='tailwind'
                                 className='lg:w-[45px] w-[30px] h-auto'
                             />
                             <Image
                                 src={"/Intro/Logo/cwordpress.svg"}
                                 width={160}
                                 height={60}
-                                alt='html'
+                                alt='wordpress'
                                 className='lg:w-[45px] wordpress-icon w-[30px] h-auto'
                             />
                              {/* <Image
