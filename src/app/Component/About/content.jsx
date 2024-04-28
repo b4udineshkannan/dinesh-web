@@ -32,7 +32,7 @@ const Content = () => {
                       
                         </div>
                         <div className="mt-2 lg:mt-5">
-                            <p>Hii, my name is Sundar, and Im a Frontend Developer. My 
+                            <p>Hii, my name is Rajender Dinesh Kannan, and Im a Frontend Developer. My 
                                 passion is to create and develop a clean UI/UX.</p>
                         </div>
                         <div className='text-white text-sm text-left lg:leading-9 lg:text-base mt-2 lg:mt-5 '>
