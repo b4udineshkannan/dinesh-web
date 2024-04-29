@@ -4,9 +4,7 @@
 @import "tailwindcss/utilities";
 
 
-.test{
-  padding: 10px;
-}
+
 body{
   overflow-x: hidden;
   color: #fff;
